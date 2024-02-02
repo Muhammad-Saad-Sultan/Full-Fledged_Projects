@@ -6,28 +6,28 @@ using namespace std;
 
 int main()
 {
-	// SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 14);
-	// cout << "======================================================" << endl;
-	// cout << "              LIBRARY MANAGEMENT SYSTEM               " << endl;
-	// cout << "======================================================" << endl;
-	// char* UniversityName = new char[50] {};
-	// SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 10);
-	// cout << "_\n" << endl;
-	// cout << "       Credit Goes To : Sir Malik Junaid Aziz           \n" << endl;
-	// cout << "_" << endl;
-	// SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 14);
-	// cout << "Grateful for Sir Junaid Aziz's exceptional guidance and teaching in the OOP (Object-Oriented Programming) course in C++. His expertise has been invaluable to our learning journey. " << endl;
-	// SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 11);
-	// cout << "\n    ************** Developer Team **************" << endl << endl;
-	// cout << "Rameez Ali - L1F22BSCS0374\n" << endl;
-	// cout << "Numan Alvi - L1F22BSCS0440\n" << endl;
-	// cout << "Saad Sultan - L1F22BSCS0451\n" << endl;
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 14);
+	cout << "======================================================" << endl;
+	cout << "              LIBRARY MANAGEMENT SYSTEM               " << endl;
+	cout << "======================================================" << endl;
+	char* UniversityName = new char[50] {};
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 10);
+	cout << "_\n" << endl;
+	cout << "       Credit Goes To : Sir Malik Junaid Aziz           \n" << endl;
+	cout << "_" << endl;
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 14);
+	cout << "Grateful for Sir Junaid Aziz's exceptional guidance and teaching in the OOP (Object-Oriented Programming) course in C++. His expertise has been invaluable to our learning journey. " << endl;
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 11);
+	cout << "\n    ************** Developer Team **************" << endl << endl;
+	cout << "Rameez Ali - L1F22BSCS0374\n" << endl;
+	cout << "Numan Alvi - L1F22BSCS0440\n" << endl;
+	cout << "Saad Sultan - L1F22BSCS0451\n" << endl;
 
-	// cout << "University Name: University of Central Punjab" << endl << endl << endl;
-	// SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
-	// system("pause");
+	cout << "University Name: University of Central Punjab" << endl << endl << endl;
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
+	system("pause");
 
-	// system("CLS");                             //Clear the screen and show main menu
+	system("CLS");                             //Clear the screen and show main menu
 	int option = 0;                            //For user input to start the program
 
 	char* admission = new char[50];
